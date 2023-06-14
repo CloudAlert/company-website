@@ -1,6 +1,6 @@
 #################### default parameters ################################
 # favicon
-favicon = "images/favicon.png"
+favicon = "images/favicon.svg"
 # logo
 logo = "images/logo.svg"
 # use `x` with logo_width, example: "100x"
@@ -35,7 +35,7 @@ reading_time = true
 
 # contact information
 [contact_info]
-address = "Schokkerhof 42, 8862 PL  Harlingen"
+address = "Harlingen, Netherlands"
 phone = ["+31(0)85 - 087 62 60"]
 email = ["info@cloudalert.eu"]
 
@@ -47,7 +47,7 @@ quality = 100
 # Preloader
 [preloader]
 enable = true
-preloader = "images/favicon.png" # use jpg, png, svg or gif format.
+preloader = "images/favicon.svg" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
