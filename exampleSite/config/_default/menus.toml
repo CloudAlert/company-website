@@ -15,6 +15,11 @@ url = "blog/"
 weight = 3
 
 [[main]]
+name = "Test"
+url = "test/"
+weight = 3
+
+[[main]]
 weight = 4
 name = "Pages"
 hasChildren = true
@@ -30,7 +35,7 @@ hasChildren = true
   name = "Terms & Conditions"
   url = "terms-and-conditions/"
   weight = 7
-  
+
 [[main]]
 name = "Contact"
 url = "contact/"
