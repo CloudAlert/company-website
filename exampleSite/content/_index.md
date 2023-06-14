@@ -1,9 +1,9 @@
 ---
 # banner
 banner:
-  title: "Andromeda is the most intuitive way to prototype Designs"
-  button: "Get Premium Version"
-  button_link: "https://gethugothemes.com/products/andromeda/"
+  title: "CloudAlet is the fastest way to connect your alerts to your users"
+  button: "Start alerting today!"
+  button_link: "https://dashboard.cloudalert.eu/signup/"
   image: "images/banner-app.png"
 
 

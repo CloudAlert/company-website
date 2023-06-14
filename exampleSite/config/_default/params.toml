@@ -13,13 +13,13 @@ author = "CloudAlert B.V."
 image = "images/logo.png"                # this image will be used as fallback if a page has no image of its own
 
 # footer information
-footer_info = "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat."
+footer_info = "Flexible Cloud based Alerting. Connect your hardware, software or machinery to our cloud and get alerted when needed!"
 
 # contact form action
-contact_form_action = "https://formspree.io/f/xgernlzd" # contact form works with https://formspree.io
+contact_form_action = "https://formspree.io/f/xnqyepwn" # contact form works with https://formspree.io
 
 # copyright
-copyright = "CloudAlert B.V. - 2023"
+copyright = "CloudAlert B.V. © 2023"
 
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
@@ -35,7 +35,7 @@ reading_time = true
 
 # contact information
 [contact_info]
-address = "Chokkerhof 42, 8862 PL  Harlingen"
+address = "Schokkerhof 42, 8862 PL  Harlingen"
 phone = ["+31(0)85 - 087 62 60"]
 email = ["info@cloudalert.eu"]
 
