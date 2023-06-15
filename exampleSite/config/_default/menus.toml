@@ -10,16 +10,6 @@ url = "about/"
 weight = 2
 
 [[main]]
-name = "Blog"
-url = "blog/"
-weight = 3
-
-[[main]]
-name = "Test"
-url = "test/"
-weight = 3
-
-[[main]]
 weight = 4
 name = "Pages"
 hasChildren = true
@@ -49,13 +39,8 @@ url = "about/"
 weight = 1
 
 [[footer]]
-name = "Blog"
-url = "blog/"
-weight = 2
-
-[[footer]]
-name = "Blog Details"
-url = "blog/post-1/"
+name = "Privacy policy"
+url = "privacy/"
 weight = 3
 
 [[footer]]

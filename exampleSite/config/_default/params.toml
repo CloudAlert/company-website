@@ -24,11 +24,8 @@ copyright = "CloudAlert B.V. © 2023"
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 
-# buy premium popup
-buy_premium_popup = false
-
 # Main Sections
-mainSections = ["blog", "test"]
+mainSections = ["pages"]
 
 # reading time for blog posts
 reading_time = true
@@ -52,12 +49,12 @@ preloader = "images/favicon.png" # use jpg, png, svg or gif format.
 # Navigation button
 [navigation_button]
 enable = true
-label = "Buy Premium"
-link = "https://gethugothemes.com/products/andromeda/"
+label = "Contact us!"
+link = "/contact/"
 
 # cookies
 [cookies]
-enable = false
+enable = true
 expire_days = 2
 content = "This site uses cookies. By continuing to use this website, you agree to their use."
 button = "I Accept"
@@ -65,28 +62,28 @@ button = "I Accept"
 # call-to-action
 [cta]
 enable = true
-title = "Get Andromeda-Premium Now"
+title = "Start using CloudAlert now!"
 content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas <br> Werat viverra id et aliquet. vulputate egestas sollicitudin."
-button = "Download The Theme"
+button = "DownloadXX TheX ThemeX"
 button_link = "https://gethugothemes.com/products/andromeda/"
 
 ############################# social site ########################
 [[social]]
-title = "Andromeda"
+title = "Facebook"
 icon = "lab la-facebook-f" # https://icons8.com/line-awesome
 link = "#!"
 
-[[social]]
-title = "AndromedaTweet"
-icon = "lab la-twitter"  # https://icons8.com/line-awesome
-link = "#!"
+# [[social]]
+# title = "AndromedaTweet"
+# icon = "lab la-twitter"  # https://icons8.com/line-awesome
+# link = "#!"
 
 [[social]]
-title = "AndromedaIn"
+title = "LinkedIn"
 icon = "lab la-linkedin-in" # https://icons8.com/line-awesome
-link = "#!"
+link = "https://www.linkedin.com/company/93145134"
 
-[[social]]
-title = "AndromedaPin"
-icon = "lab la-pinterest" # https://icons8.com/line-awesome
-link = "#!"
+# [[social]]
+# title = "AndromedaPin"
+# icon = "lab la-pinterest" # https://icons8.com/line-awesome
+# link = "#!"
