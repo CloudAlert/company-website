@@ -1,7 +1,7 @@
 ---
 # banner
 banner:
-  title: "CloudAlert is the fastest way to connect your alerts to your users"
+  title: "CloudAlert, the fastest way to connect your alerts to your users"
   button: "Start alerting today!"
   button_link: "https://dashboard.cloudalert.eu/signup/"
   image: "images/banner-app.png"
