@@ -4,7 +4,7 @@ favicon = "images/favicon.png"
 # logo
 logo = "images/logo.svg"
 # use `x` with logo_width, example: "100x"
-logo_width = "240x"
+logo_width = "360x"
 # logo text will only show when logo is missing.
 logo_text = "CloudAlert"
 # OpenGraph / Twitter Card metadata
@@ -33,7 +33,7 @@ reading_time = true
 # contact information
 [contact_info]
 address = "Harlingen, Netherlands"
-phone = ["+31(0)85 - 087 62 60"]
+phone = ["+31 850 - 87 62 60"]
 email = ["info@cloudalert.eu"]
 
 # imaging processing
@@ -50,7 +50,7 @@ preloader = "images/favicon.png" # use jpg, png, svg or gif format.
 [navigation_button]
 enable = true
 label = "Contact us!"
-link = "/contact/"
+link = "/en/contact/"
 
 # cookies
 [cookies]
@@ -64,8 +64,8 @@ button = "I Accept"
 enable = true
 title = "Start using CloudAlert now!"
 content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas <br> Werat viverra id et aliquet. vulputate egestas sollicitudin."
-button = "DownloadXX TheX ThemeX"
-button_link = "https://gethugothemes.com/products/andromeda/"
+button = "SignUp now!"
+button_link = "https://dashboard.cloudalert.eu/en/register/"
 
 ############################# social site ########################
 [[social]]

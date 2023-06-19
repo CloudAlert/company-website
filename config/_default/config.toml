@@ -1,7 +1,9 @@
 ######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/andromeda-light/site/"
+baseURL = "https://demo.gethugothemes.com/"
 title = "CloudAlert - Alerting from the cloud"
-theme = "andromeda-light"
+theme = "cloudalert"
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir= true
 # post pagination
 paginate = "6"
 # post excerpt
@@ -49,3 +51,19 @@ suffixes = [""]
 [outputFormats.WebAppManifest]
 mediaType = "application/manifest+json"
 rel = "manifest"
+
+[languages]
+[languages.nl]
+languageName = "Nederlands"
+languageNameShort = "nl"
+languageFlagIcon = "fi fi-nl"
+weight = 1
+contentDir= "content/nl"
+
+
+[languages.en]
+languageName = "English"
+languageNameShort = "en"
+languageFlagIcon = "fi fi-gb"
+weight = 3
+contentDir= "content/en"

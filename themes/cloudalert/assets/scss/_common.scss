@@ -523,7 +523,7 @@ a.text-primary:hover {
     visibility: hidden;
     &.show {
       visibility: visible;
-    } 
+    }
   }
   @include mobile {
     display: none !important;

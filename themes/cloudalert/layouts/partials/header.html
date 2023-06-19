@@ -22,14 +22,14 @@
 
               <div class="collapse navbar-collapse" id="navHeader">
                 {{ $navButton:= site.Params.navigation_button.enable }}
-                <ul class="navbar-nav {{if $navButton}}mx-auto{{ else }}ml-auto{{end}}">                  
+                <ul class="navbar-nav {{if $navButton}}mx-auto{{ else }}ml-auto{{end}}">
                   {{ $currentPage := . }}
                   {{ range site.Menus.main }}
 
                   {{ $menu_item_url := .URL | absLangURL }}
                   {{ $page_url:= $currentPage.Permalink | absLangURL }}
                   {{ $active := eq $menu_item_url $page_url}}
-                  
+
                   {{ if .HasChildren }}
                   <li class="nav-item dropdown">
 
@@ -57,7 +57,37 @@
                   {{ end }}
                   {{ end }}
                 </ul>
-        
+
+                {{ if .Site.IsMultiLingual }}
+                <ul class="navbar-nav {{if $navButton}}mx-auto{{ else }}ml-auto{{end}}">
+                <li class="navbar-right nav-item dropdown" aria-label="Language switcher">
+                  <a class="nav-link dropdown-toggle" href="#" id="lang-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    {{ range .Site.Languages }}
+                    {{ if eq . $.Site.Language }}
+                      <i><span aria-label='{{ i18n "ariaLanguage" }}{{ .LanguageName }}'><span class="{{ .Params.languageFlagIcon }}"></span> {{ .LanguageName }}</span></i>
+                    {{ end }}
+                    {{ end }}
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="lang-dropdown">
+                    {{ range .Site.Languages }}
+                    {{ if eq . $.Site.Language }}
+                    <li><a class="dropdown-item disabled" href="#"><span aria-label='{{ i18n "ariaLanguage" }}{{ .LanguageName }}'><span class="{{ .Params.languageFlagIcon }}"></span> {{ .LanguageName }}  <i class="fa fa-check text-success"></i></span></a></li>
+                    {{ end }}
+                    {{ end }}
+                    <li><hr class="dropdown-divider" /></li>
+                    {{ $siteLanguages := site.Languages}}
+                    {{ $pageLang := .Page.Lang}}
+                    {{ $translation := . }}
+                    {{ range sort $siteLanguages "Weight" "asc" }}
+                    {{ if ne .Lang $translation.Lang }}
+                    <li><a class="dropdown-item" href="{{ .Lang | relURL }}"><span aria-label='{{ i18n "ariaLanguage" }}{{ .Params.languageName }}'><span class="{{ .Params.languageFlagIcon }}"></span> {{ .Params.languageName }}</span></a></li>
+                    {{ end }}
+                    {{ end }}
+                  </ul>
+                </li>
+                {{ end }}
+              </ul>
+
                 {{ if $navButton }}
                 <div class="navbar-right">
                   <a href="{{ site.Params.navigation_button.link | relURL }}" class="btn btn-primary">{{ site.Params.navigation_button.label }}</a>
