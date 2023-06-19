@@ -37,11 +37,11 @@ icon_font = "Line Awesome Free"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
-link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css"
+link = "plugins/fontawesome/fontawesome.min.css"
 [[params.plugins.css]]
-link = "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+link = "plugins/bootstrap-icons/bootstrap-icons.min.css"
 [[params.plugins.css]]
-link = "https://cdnjs.cloudflare.com/ajax/libs/flag-icons/6.7.0/css/flag-icons.min.css"
+link = "plugins/flag-icons/flag-icons.min.css"
 [[params.plugins.css]]
 link = "plugins/line-awesome/css/line-awesome.min.css"
 [[params.plugins.css]]
