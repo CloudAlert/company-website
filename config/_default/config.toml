@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/"
+baseURL = "https://cloudalert.eu/"
 title = "CloudAlert - Alerting from the cloud"
 theme = "cloudalert"
 defaultContentLanguage = 'en'
@@ -11,13 +11,13 @@ summaryLength = "10"
 # google analytics
 googleAnalytics = "" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
 # disqus short name
-disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
+disqusShortname = "cloudalert" # get your shortname form here : https://disqus.com
 
 ############################# Modules ##############################
 [module]
 [module.hugoVersion]
 extended = true
-min = "0.83.1"
+min = "0.110.0"
 
 ############################# Outputs ##############################
 [outputs]

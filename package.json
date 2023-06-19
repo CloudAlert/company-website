@@ -2,11 +2,11 @@
   "name": "cloudalert",
   "version": "1.5.0",
   "license": "MIT",
-  "author": "gethugothemes",
+  "author": "CloudAlert",
   "scripts": {
-    "dev": "cd site; hugo server || hugo server --themesDir ./themes",
-    "test": "cd site; hugo server --themesDir ./themes --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify|| hugo server --themesDir ../.. --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
-    "build": "cd site; hugo || hugo --themesDir ./themes --gc --minify --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
+    "dev": "cd site; hugo server || hugo server --themesDir ../themes",
+    "test": "cd site; hugo server --themesDir ../themes --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify|| hugo server --themesDir ../.. --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
+    "build": "cd site; hugo || hugo --themesDir ../themes --gc --minify --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
     "update": "hugo mod clean && hugo mod get -u ./... && hugo mod tidy"
   },
   "dependencies": {

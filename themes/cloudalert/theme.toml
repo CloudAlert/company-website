@@ -1,13 +1,11 @@
-name = "Andromeda Light"
+name = "CloudAlert"
 license = "MIT"
-licenselink = "https://github.com/gethugothemes/andromeda-light/blob/master/LICENSE"
-description = "Andromeda is a SAAS landing template focused on real life usages and clean interface. It is fully responsive, Super fast and powered by Bootstrap. Also we make it SEO friendly."
-homepage = "https://github.com/gethugothemes/andromeda-light/"
-demosite = "https://demo.gethugothemes.com/andromeda-light/"
-tags = ['blog', 'light', 'bootstrap', "company", 'responsive', 'contact-form']
+licenselink = "https://github.com/CloudAlert/company-Website/blob/master/LICENSE"
+description = "CloudAlerts compny website based on the andromeda-light hugo theme."
+homepage = "https://github.com/CloudAlert/company-Website/"
 features = ['responsive']
-min_version = "0.83.1"
+min_version = "0.110.0"
 
 [author]
-name = "gethugothemes"
-homepage = "https://gethugothemes.com/"
+name = "CloudALert"
+homepage = "https://cloudAlert.eu/"
