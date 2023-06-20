@@ -17,5 +17,5 @@
   Content-Security-Policy = """
     default-src 'self';
     script-src 'self' 'unsafe-eval' apis.google.com cdnjs.cloudflare.com;
-    object-src 'self'
-    style-src 'self' cdnjs.cloudflare.com"""
+    object-src 'self';
+    style-src 'self' cdnjs.cloudflare.com;"""
