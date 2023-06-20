@@ -51,7 +51,7 @@ link = "plugins/aos/aos.css"
 
 # JS Plugins
 [[params.plugins.js]]
-link = "plugins/jquery/jquery.min.js"
+link = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
 [[params.plugins.js]]
 link = "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.min.js"
 [[params.plugins.js]]
